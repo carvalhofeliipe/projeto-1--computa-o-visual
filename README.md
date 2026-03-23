@@ -62,7 +62,7 @@ Esta seção detalha exatamente onde e como cada requisito obrigatório do proje
 - **Tratamento de Arquivo Não Encontrado:** O programa verifica a integridade do ponteiro da imagem e encerra de forma segura caso falte o arquivo.
   - *Evidência (Linhas 128-130):* ```c
     if (!image) { printf("Erro na imagem!\n"); return 1; }
-    ```
+
 
 ### 3. Análise e Conversão para Escala de Cinza
 - **Fórmula de Luminância ($Y$):** Implementação exata dos pesos solicitados pelo professor.
