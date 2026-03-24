@@ -17,13 +17,6 @@ Como o projeto foi desenvolvido em ambiente **macOS**, decidimos disponibilizar 
 
 ---
 
-## Integrantes do Grupo
-* **Giulia Araki** - RA: 10408954
-* **Felipe Carvalho** - RA: 10409804
-* **Gabriel Rodrigues** - RA: 10409071
-
----
-
 ## Contribuição do grupo
 * ***Giulia Araki:*** Configuração do ambiente macOS, interface gráfica (botões/janelas), lógica de eventos e integração final.
 * ***Felipe Carvalho:*** Funções de conversão para escala de cinza e cálculo matemático do histograma original.
