@@ -88,7 +88,7 @@ Abaixo, detalhamos como cada exigência técnica foi implementada no código-fon
 ### Compilação
 gcc main.c -o programa -I/opt/homebrew/include -L/opt/homebrew/lib -lSDL3 -lSDL3_image -lSDL3_ttf
 
-### Execução
+### Execução (Exemplo)
 ./programa test.jpg
 
 ### Pré-requisitos
