@@ -25,6 +25,15 @@ O software foi estruturado para processar a imagem em camadas, garantindo efici�
 * **Algoritmo de Equalização:** Utilizamos a Função de Distribuição Acumulada (CDF). O código normaliza o histograma original para que os tons sejam redistribuídos de forma uniforme, aproveitando toda a escala de cinza disponível.
 * **Gerenciamento de Janelas:** Usamos o conceito de janela "parent" (mãe) e "child" (filha) da SDL3. Isso permite que, ao fechar ou mover a principal, a secundária responda em conjunto, mantendo a GUI organizada.
 
+## Principais Funções 
+
+As principais funções implementadas são:
+
+- `convertToGrayscale`: Converte a imagem para escala de cinza.
+- `computeHistogram`: Calcula o histograma e estatísticas.
+- `equalizeHistogram`: Realiza a equalização usando CDF.
+- `drawHistogram`: Renderiza o histograma na interface.
+
 ## Funcionalidades Realizadas
 - [x] **Carregamento Multiformato:** Suporte a PNG, JPG e BMP via `SDL_image`.
 - [x] **Tratamento de Erros:** Verificação de integridade de arquivos e caminhos.
